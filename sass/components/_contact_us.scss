@@ -1,0 +1,197 @@
+.contact__container {
+  @media screen and (min-width: 767px) {
+    display: flex;
+    margin-bottom: 141px;
+  }
+
+  @media screen and (min-width:992px) {
+    margin-bottom: 157px;
+  }
+
+  @media screen and (min-width: 1300px) {
+    margin-bottom: 133px;
+  }
+}
+
+.subscribe__img {
+  @extend %centeredBlock;
+  width: 253px;
+  margin-bottom: 38px;
+
+  @media screen and (min-width: 575px) {
+    width: 358px;
+    margin-bottom: 34px;
+  }
+
+  @media screen and (min-width: 767px) {
+    width: 233px;
+    margin-right: 36px;
+  }
+
+  @media screen and (min-width: 992px) {
+    width: 312px;
+    margin-right: 109px;
+  }
+
+  @media screen and (min-width: 1300px) {
+    width: 477px;
+  }
+}
+
+.subscribe__text {
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 31px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.5;
+
+  @media screen and (min-width: 575px) {
+    font-size: 16px;
+    margin-bottom: 60px;
+  }
+
+  @media screen and (min-width: 767px) {
+    text-align: left;
+    margin-bottom: 26px;
+    font-size: 14px;
+  }
+
+  @media screen and (min-width:992px) {
+    font-size: 16px;
+    margin-right: 60px;
+  }
+
+  @media screen and (min-width: 1300px) {
+    font-size: 20px;
+  }
+}
+
+.subscribe__input {
+  @extend %centeredBlock;
+  width: 290px;
+  height: 50px;
+  margin-top: 0;
+  margin-bottom: 17px;
+  padding: 16px 26px;
+  border-radius: 5px;
+  border-color: $main_color;
+
+  @media screen and (min-width: 575px) {
+    height: 60px;
+  }
+
+  @media screen and (min-width: 767px) {
+    min-width: 283px;
+    height: 50px;
+  }
+
+  @media screen and (min-width:992px) {
+    height: 60px;
+  }
+
+  @media screen and (min-width: 1300px) {
+    min-width: 450px;
+    height: 80px;
+    margin-right: 10px;
+  }
+}
+
+.subscribe__input::placeholder {
+  color: $main_color;
+}
+
+.subscribe__button {
+  @extend %centeredBlock;
+  width: 289px;
+  height: 60px;
+  border-radius: 5px;
+  color: #ffffff;
+  cursor: pointer;
+  background-color: $button_bgcolor;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  margin-top: 0;
+  margin-bottom: 57px;
+  transition: background-color 300ms ease-in-out, color 300ms ease-in-out;
+
+  &:hover,
+  &:focus {
+    background-color: transparent;
+    border-color: $button_bgcolor;
+    color: $button_bgcolor;
+  }
+
+  @media screen and (min-width: 575px) {
+    margin: 0;
+  }
+
+  @media screen and (min-width: 767px) {
+    width: 145px;
+    height: 50px;
+  }
+
+  @media screen and (min-width:992px) {
+    width: 200px;
+    height: 60px;
+  }
+
+  @media screen and (min-width: 1300px) {
+    width: 260px;
+    height: 80px;
+  }
+}
+
+.contact__title {
+  margin-top: 0;
+  margin-bottom: 38px;
+
+  @media screen and (min-width: 575px) {
+    margin-bottom: 83px;
+  }
+
+  @media screen and (min-width: 767px) {
+    position: absolute;
+    top: 0;
+    left: 100%;
+    white-space: nowrap;
+    margin-bottom: 0;
+    line-height: 1;
+  }
+}
+
+.subscribe__form {
+  @media screen and (min-width: 575px) {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 144px;
+  }
+
+  @media screen and (min-width: 767px) {
+    margin-bottom: 0;
+    justify-content: start;
+  }
+}
+
+.contact--positioned {
+  @media screen and (min-width: 767px) {
+    position: relative;
+  }
+}
+
+.contact--flexed {
+  @media screen and (min-width: 767px) {
+    display: flex;
+    flex-direction: column;
+    margin-top: auto;
+  }
+
+  @media screen and (min-width:992px) {
+    margin-bottom: 40px;
+  }
+
+  @media screen and (min-width: 1300px) {
+    margin-bottom: 100px;
+  }
+}

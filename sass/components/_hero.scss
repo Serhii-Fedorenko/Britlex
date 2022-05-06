@@ -1,0 +1,202 @@
+.hero {
+  
+  @media screen and (min-width: 767px) {
+    position: relative;
+    display: flex;
+    flex-direction: row-reverse;
+    margin-bottom: 56px;
+  }
+
+  @media screen and (min-width: 992px) {
+    margin-bottom: 47px;
+  }
+}
+
+.hero__title {
+  text-align: center;
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-top: 0;
+  margin-bottom: 20px;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 1.5;
+
+  @media screen and (min-width: 575px) {
+    margin-bottom: 26px;
+    font-size: 34px;
+    margin-right: 0;
+    margin-left: 0;
+  }
+
+  @media screen and (min-width: 767px) {
+    text-align: left;
+    // margin-right: 143px;
+    font-size: 36px;
+  }
+
+  @media screen and (min-width: 992px) {
+    font-size: 48px;
+    margin-right: 0;
+  }
+
+  @media screen and (min-width: 1300px) {
+    font-size: 64px;
+    line-height: 1.2;
+  }
+
+  @media screen and (min-width: 1300px) {
+    margin-bottom: 40px;
+  }
+}
+
+.hero__button {
+  @extend %centeredBlock;
+  width: 289px;
+  height: 60px;
+  border-radius: 5px;
+  color: #ffffff;
+  background-color: $button_bgcolor;
+  cursor: pointer;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  margin-top: 0;
+  margin-bottom: 51px;
+  transition: background-color 300ms ease-in-out, color 300ms ease-in-out;
+
+  &:hover,
+  &:focus {
+    background-color: transparent;
+    border-color: $button_bgcolor;
+    color: $button_bgcolor;
+  }
+
+  @media screen and (min-width: 575px) {
+    width: 305px;
+    height: 75px;
+    margin-bottom: 96px;
+    font-size: 18px;
+  }
+
+  @media screen and (min-width: 767px) {
+    margin-bottom: 0;
+    margin-top: auto;
+    margin-left: 0;
+  }
+
+  @media screen and (min-width: 992px) {
+    width: 292px;
+    height: 80px;
+    font-size: 24px;
+  }
+
+  @media screen and (min-width: 1300px) {
+    margin-bottom: 70px;
+  }
+}
+
+.hero__text {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.5;
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 35px;
+
+  @media screen and (min-width: 767px) {
+    text-align: left;
+    font-size: 16px;
+  }
+
+  @media screen and (min-width: 992px) {
+    font-size: 20px;
+  }
+
+  @media screen and (min-width: 1300px) {
+    font-size: 24px;
+  }
+
+  @media screen and (min-width: 1300px) {
+    margin-bottom: 0;
+  }
+}
+
+.hero__img {
+  @extend %centeredBlock;
+  width: 299px;
+  margin-bottom: 16px;
+
+  @media screen and (min-width: 575px) {
+    width: 424px;
+  }
+
+  @media screen and (min-width: 767px) {
+    width: 352px;
+  }
+
+  @media screen and (min-width: 992px) {
+    width: 460px;
+    margin-left: 50px;
+  }
+
+  @media screen and (min-width: 1300px) {
+    width: 600px;
+    margin-left: 10px;
+  }
+}
+
+.hero__list {
+  display: flex;
+  flex-direction: column;
+
+  @media screen and (min-width: 767px) {
+    width: 352px;
+  }
+
+  @media screen and (min-width: 992px) {
+    width: 422px;
+  }
+
+  @media screen and (min-width: 1300px) {
+    width: 630px;
+  }
+}
+
+.content1::after {
+  @media screen and (min-width: 767px) {
+    content: '\a';
+    white-space: pre;
+  }
+}
+
+.light-bulb {
+  position: absolute;
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  border: none;
+  background-color: transparent;
+  background-image: url(../../images/light.svg);
+  background-size: contain;
+  top: 100px;
+  left: 250px;
+
+  @media screen and (max-width: 766px) {
+    display: none;
+  }
+
+  @media screen and (min-width: 992px) {
+    width: 58px;
+    height: 58px;
+    top: 140px;
+    left: 300px;
+  }
+
+  @media screen and (min-width: 1300px) {
+    width: 85px;
+    height: 85px;
+    top: 140px;
+    left: 500px;
+  }
+}

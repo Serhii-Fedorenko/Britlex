@@ -1,0 +1,149 @@
+.about__container {
+  @media screen and (min-width: 767px) {
+    position: relative;
+    display: flex;
+    flex-direction: row-reverse;
+    margin-bottom: 88px;
+  }
+
+  @media screen and (min-width: 1300px) {
+    margin-bottom: 188px;
+  }
+}
+
+.about__title {
+  margin-bottom: 24px;
+
+  @media screen and (min-width: 767px) {
+    position: absolute;
+    top: 0;
+    left: 40px;
+    margin-bottom: 0;
+  }
+
+  @media screen and (min-width: 992px) {
+    left: 30px;
+  }
+
+  @media screen and (min-width: 1300px) {
+    left: 100px;
+  }
+}
+
+.about__img {
+  @extend %centeredBlock;
+  width: 283px;
+  margin-bottom: 23px;
+
+  @media screen and (min-width: 575px) {
+    width: 352px;
+  }
+
+  @media screen and (min-width:767px) {
+    width: 295px;
+    margin-bottom: 0;
+  }
+
+  @media screen and (min-width: 992px) {
+    width: 336px;
+  }
+
+  @media screen and (min-width: 1300px) {
+    width: 500px;
+  }
+}
+
+.about__text {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 1.5;
+  @media screen and (min-width: 575px) {
+    font-size: 14px;
+  }
+
+  @media screen and (min-width: 992px) {
+    font-size: 16px;
+  }
+
+  @media screen and (min-width: 1300px) {
+    font-size: 20px;
+  }
+}
+
+.about__item {
+  display: flex;
+  flex-direction: column;
+  color: $main_color;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 1.5;
+
+  &--bold {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 3.3;
+    color: $secondary_color;
+    margin-bottom: -10px;
+
+    @media screen and (min-width: 992px) {
+      font-size: 30px;
+    }
+
+    @media screen and (min-width: 1300px) {
+      font-size: 48px;
+      margin-bottom: -40px;
+    }
+  }
+
+  &:last-child {
+    @media screen and (max-width: 574px) {
+      margin-bottom: 84px;
+    }
+  }
+
+  &:not(:last-child) {
+    @media screen and (min-width: 767px) {
+      margin-right: 55px;
+    }
+
+    @media screen and (min-width: 992px) {
+      margin-right: 70px;
+    }
+  }
+
+  @media screen and (min-width: 575px) {
+    margin-bottom: 131px;
+    font-size: 14px;
+  }
+
+  @media screen and (min-width: 767px) {
+    margin-bottom: 0;
+  }
+
+  @media screen and (min-width: 992px) {
+    font-size: 16px;
+  }
+
+  @media screen and (min-width: 1300px) {
+    font-size: 20px;
+  }
+}
+
+.about__list {
+  text-align: center;
+
+  @media screen and (min-width: 575px) {
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+  @media screen and (min-width: 767px) {
+    justify-content: start;
+  }
+}
+
+.about--flexed {
+  margin-top: auto;
+}
