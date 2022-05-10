@@ -402,8 +402,10 @@ button {
   }
 }
 
-.navigation__item:not(:last-child) {
-  margin-right: 20px;
+@media screen and (min-width: 991px) {
+  .navigation__item:not(:last-child) {
+    margin-right: 20px;
+  }
 }
 
 .desktop__button {
