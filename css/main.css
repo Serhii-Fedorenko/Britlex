@@ -297,6 +297,17 @@ button {
   display: none;
 }
 
+.navigation__list.is-open {
+  position: absolute;
+  display: block;
+  width: 100%;
+  top: 66px;
+  left: 0;
+  text-align: center;
+  background-color: #fff;
+  border: 1px solid #8F95A5;
+}
+
 @media screen and (min-width: 992px) {
   .navigation__list {
     display: -webkit-box;
@@ -423,6 +434,7 @@ button {
 }
 
 .header {
+  position: relative;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;

@@ -1,6 +1,17 @@
 .navigation__list {
   display: none;
 
+  &.is-open {
+    position: absolute;
+    display: block;
+    width: 100%;
+    top: 66px;
+    left: 0;
+    text-align: center;
+    background-color: #fff;
+    border: 1px solid $main_color;
+  }
+
   @media screen and (min-width: 992px) {
     display: flex;
     margin-left: 167px;
@@ -107,6 +118,7 @@
 }
 
 .header {
+  position: relative;
   display: flex;
   width: 100%;
   padding: 15px 15px;
