@@ -16,12 +16,12 @@
     transform: translateY(50px);
   }
 
-  @media screen and (min-width: 992px) {
+  @media screen and (min-width: $desktopS) {
     display: flex;
     margin-left: 167px;
   }
 
-  @media screen and (min-width: 1300px) {
+  @media screen and (min-width: $desktopL) {
     margin-left: 253px;
   }
 }
@@ -81,7 +81,7 @@
     }
   }
 
-  @media screen and (min-width: 1300px) {
+  @media screen and (min-width: $desktopL) {
     font-size: 20px;
   }
 }
@@ -114,11 +114,11 @@
     color: #ffffff;
   }
 
-  @media screen and (min-width: 992px) {
+  @media screen and (min-width: $desktopS) {
     display: inline-block;
   }
 
-  @media screen and (min-width: 1300px) {
+  @media screen and (min-width: $desktopL) {
     width: 220px;
     height: 70px;
   }
@@ -134,7 +134,7 @@
   background-color: #fff;
   z-index: 2;
 
-  @media screen and (min-width: 992px) {
+  @media screen and (min-width: $desktopS) {
     justify-content: start;
   }
 }
@@ -160,7 +160,7 @@
     display: none;
   }
 
-  @media screen and (min-width: 992px) {
+  @media screen and (min-width: $desktopS) {
     display: none;
   }
 }
@@ -175,11 +175,11 @@
     color: $logo_ending_color;
   }
 
-  @media screen and (min-width: 575px) {
+  @media screen and (min-width: $mobileL) {
     font-size: 30px;
   }
 
-  @media screen and (min-width: 1300px) {
+  @media screen and (min-width: $desktopL) {
     font-size: 35px;
   }
 }

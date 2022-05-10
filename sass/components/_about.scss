@@ -1,12 +1,12 @@
 .about__container {
-  @media screen and (min-width: 767px) {
+  @media screen and (min-width: $tablet) {
     position: relative;
     display: flex;
     flex-direction: row-reverse;
     margin-bottom: 88px;
   }
 
-  @media screen and (min-width: 1300px) {
+  @media screen and (min-width: $desktopL) {
     margin-bottom: 188px;
   }
 }
@@ -14,18 +14,18 @@
 .about__title {
   margin-bottom: 24px;
 
-  @media screen and (min-width: 767px) {
+  @media screen and (min-width: $tablet) {
     position: absolute;
     top: 0;
     left: 40px;
     margin-bottom: 0;
   }
 
-  @media screen and (min-width: 992px) {
+  @media screen and (min-width: $desktopS) {
     left: 30px;
   }
 
-  @media screen and (min-width: 1300px) {
+  @media screen and (min-width: $desktopL) {
     left: 100px;
   }
 }
@@ -35,20 +35,22 @@
   width: 283px;
   margin-bottom: 23px;
 
-  @media screen and (min-width: 575px) {
+  @media screen and (min-width: $mobileL) {
     width: 352px;
   }
 
-  @media screen and (min-width:767px) {
+  @media screen and (min-width: $tablet) {
     width: 295px;
     margin-bottom: 0;
+    margin-top: 30px;
   }
 
-  @media screen and (min-width: 992px) {
+  @media screen and (min-width: $desktopS) {
     width: 336px;
+    margin-top: 0;
   }
 
-  @media screen and (min-width: 1300px) {
+  @media screen and (min-width: $desktopL) {
     width: 500px;
   }
 }
@@ -59,15 +61,15 @@
   font-weight: 400;
   font-size: 13px;
   line-height: 1.5;
-  @media screen and (min-width: 575px) {
+  @media screen and (min-width: $mobileL) {
     font-size: 14px;
   }
 
-  @media screen and (min-width: 992px) {
+  @media screen and (min-width: $desktopS) {
     font-size: 16px;
   }
 
-  @media screen and (min-width: 1300px) {
+  @media screen and (min-width: $desktopL) {
     font-size: 20px;
   }
 }
@@ -87,11 +89,11 @@
     color: $secondary_color;
     margin-bottom: -10px;
 
-    @media screen and (min-width: 992px) {
+    @media screen and (min-width: $desktopS) {
       font-size: 30px;
     }
 
-    @media screen and (min-width: 1300px) {
+    @media screen and (min-width: $desktopL) {
       font-size: 48px;
       margin-bottom: -40px;
     }
@@ -104,29 +106,29 @@
   }
 
   &:not(:last-child) {
-    @media screen and (min-width: 767px) {
+    @media screen and (min-width: $tablet) {
       margin-right: 55px;
     }
 
-    @media screen and (min-width: 992px) {
+    @media screen and (min-width: $desktopS) {
       margin-right: 70px;
     }
   }
 
-  @media screen and (min-width: 575px) {
+  @media screen and (min-width: $mobileL) {
     margin-bottom: 131px;
     font-size: 14px;
   }
 
-  @media screen and (min-width: 767px) {
+  @media screen and (min-width: $tablet) {
     margin-bottom: 0;
   }
 
-  @media screen and (min-width: 992px) {
+  @media screen and (min-width: $desktopS) {
     font-size: 16px;
   }
 
-  @media screen and (min-width: 1300px) {
+  @media screen and (min-width: $desktopL) {
     font-size: 20px;
   }
 }
@@ -134,12 +136,12 @@
 .about__list {
   text-align: center;
 
-  @media screen and (min-width: 575px) {
+  @media screen and (min-width: $mobileL) {
     display: flex;
     justify-content: space-evenly;
   }
 
-  @media screen and (min-width: 767px) {
+  @media screen and (min-width: $tablet) {
     justify-content: start;
   }
 }

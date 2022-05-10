@@ -1,14 +1,14 @@
 .contact__container {
-  @media screen and (min-width: 767px) {
+  @media screen and (min-width: $tablet) {
     display: flex;
     margin-bottom: 141px;
   }
 
-  @media screen and (min-width:992px) {
+  @media screen and (min-width: $desktopS) {
     margin-bottom: 157px;
   }
 
-  @media screen and (min-width: 1300px) {
+  @media screen and (min-width: $desktopL) {
     margin-bottom: 133px;
   }
 }
@@ -18,22 +18,22 @@
   width: 253px;
   margin-bottom: 38px;
 
-  @media screen and (min-width: 575px) {
+  @media screen and (min-width: $mobileL) {
     width: 358px;
     margin-bottom: 34px;
   }
 
-  @media screen and (min-width: 767px) {
+  @media screen and (min-width: $tablet) {
     width: 233px;
     margin-right: 36px;
   }
 
-  @media screen and (min-width: 992px) {
+  @media screen and (min-width: $desktopS) {
     width: 312px;
     margin-right: 109px;
   }
 
-  @media screen and (min-width: 1300px) {
+  @media screen and (min-width: $desktopL) {
     width: 477px;
   }
 }
@@ -46,23 +46,23 @@
   font-size: 14px;
   line-height: 1.5;
 
-  @media screen and (min-width: 575px) {
+  @media screen and (min-width: $mobileL) {
     font-size: 16px;
     margin-bottom: 60px;
   }
 
-  @media screen and (min-width: 767px) {
+  @media screen and (min-width: $tablet) {
     text-align: left;
     margin-bottom: 26px;
     font-size: 14px;
   }
 
-  @media screen and (min-width:992px) {
+  @media screen and (min-width: $desktopS) {
     font-size: 16px;
     margin-right: 60px;
   }
 
-  @media screen and (min-width: 1300px) {
+  @media screen and (min-width: $desktopL) {
     font-size: 20px;
   }
 }
@@ -77,20 +77,20 @@
   border-radius: 5px;
   border-color: $main_color;
 
-  @media screen and (min-width: 575px) {
+  @media screen and (min-width: $mobileL) {
     height: 60px;
   }
 
-  @media screen and (min-width: 767px) {
+  @media screen and (min-width: $tablet) {
     min-width: 283px;
     height: 50px;
   }
 
-  @media screen and (min-width:992px) {
+  @media screen and (min-width: $desktopS) {
     height: 60px;
   }
 
-  @media screen and (min-width: 1300px) {
+  @media screen and (min-width: $desktopL) {
     min-width: 450px;
     height: 80px;
     margin-right: 10px;
@@ -123,21 +123,21 @@
     color: $button_bgcolor;
   }
 
-  @media screen and (min-width: 575px) {
+  @media screen and (min-width: $mobileL) {
     margin: 0;
   }
 
-  @media screen and (min-width: 767px) {
+  @media screen and (min-width: $tablet) {
     width: 145px;
     height: 50px;
   }
 
-  @media screen and (min-width:992px) {
+  @media screen and (min-width: $desktopS) {
     width: 200px;
     height: 60px;
   }
 
-  @media screen and (min-width: 1300px) {
+  @media screen and (min-width: $desktopL) {
     width: 260px;
     height: 80px;
   }
@@ -147,11 +147,11 @@
   margin-top: 0;
   margin-bottom: 38px;
 
-  @media screen and (min-width: 575px) {
+  @media screen and (min-width: $mobileL) {
     margin-bottom: 83px;
   }
 
-  @media screen and (min-width: 767px) {
+  @media screen and (min-width: $tablet) {
     position: absolute;
     top: 0;
     left: 100%;
@@ -162,36 +162,36 @@
 }
 
 .subscribe__form {
-  @media screen and (min-width: 575px) {
+  @media screen and (min-width: $mobileL) {
     display: flex;
     justify-content: center;
     margin-bottom: 144px;
   }
 
-  @media screen and (min-width: 767px) {
+  @media screen and (min-width: $tablet) {
     margin-bottom: 0;
     justify-content: start;
   }
 }
 
 .contact--positioned {
-  @media screen and (min-width: 767px) {
+  @media screen and (min-width: $tablet) {
     position: relative;
   }
 }
 
 .contact--flexed {
-  @media screen and (min-width: 767px) {
+  @media screen and (min-width: $tablet) {
     display: flex;
     flex-direction: column;
     margin-top: auto;
   }
 
-  @media screen and (min-width:992px) {
+  @media screen and (min-width: $desktopS) {
     margin-bottom: 40px;
   }
 
-  @media screen and (min-width: 1300px) {
+  @media screen and (min-width: $desktopL) {
     margin-bottom: 100px;
   }
 }
